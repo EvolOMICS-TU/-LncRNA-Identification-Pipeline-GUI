@@ -80,9 +80,8 @@ cd $bin
 # 6. SEEKR
 # =================================================================
 echo "98"
-echo "# Compiling SEEKR" ; sleep 2
-cd $bin
-
+echo "# Installing SEEKR" ; sleep 2
+pip install SEEKR
 
 # =================================================================
 echo "# All finished." ; sleep 2
