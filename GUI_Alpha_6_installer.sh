@@ -64,11 +64,17 @@ tar xvzf miRanda-1.9-i686-linux-gnu.tar.gz
 cd miRanda-1.9-i686-linux-gnu/bin
 chmod u+x miranda
 
-# 4. Capsule-LPI
+# 5. Capsule-LPI
 # =================================================================
 echo "93"
 echo "# Compiling Capsule-LPI" ; sleep2
 cd $bin
+wget http://39.100.104.29:8080/static/clf/code/Capsule_LPI_sources.zip
+unzip Capsule_LPI_sources.zip
+cd Capsule_LPI_sources/data/tools/
+chmod u+x .
+
+cd $bin 
 
 
 # =================================================================
