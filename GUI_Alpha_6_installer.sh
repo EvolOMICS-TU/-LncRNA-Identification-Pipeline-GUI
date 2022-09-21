@@ -67,14 +67,21 @@ chmod u+x miranda
 # 5. Capsule-LPI
 # =================================================================
 echo "93"
-echo "# Compiling Capsule-LPI" ; sleep2
+echo "# Compiling Capsule-LPI" ; sleep 2
 cd $bin
 wget http://39.100.104.29:8080/static/clf/code/Capsule_LPI_sources.zip
 unzip Capsule_LPI_sources.zip
 cd Capsule_LPI_sources/data/tools/
-chmod u+x .
+chmod u+x RNAFold
 
 cd $bin 
+# protein prediction pending
+
+# 6. SEEKR
+# =================================================================
+echo "98"
+echo "# Compiling SEEKR" ; sleep 2
+cd $bin
 
 
 # =================================================================
