@@ -47,12 +47,28 @@ make clean && make
 
 # 3. LncTar
 # =================================================================
-echo "99"
+echo 85"
 echo "# Compiling LncTar" ; sleep 2
+cd $bin
 wget http://www.cuilab.cn/lnctarapp/download
 unzip download
 
-# 4. 
+# 4. miRanda
+# =================================================================
+echo "90"
+echo "# Compiling miRanda" ; sleep 2
+cd $bin
+wget http://cbio.mskcc.org/miRNA2003/src1.9/binaries/miRanda-1.9-i686-linux-gnu.tar.gz
+tar xvzf miRanda-1.9-i686-linux-gnu.tar.gz
+
+cd miRanda-1.9-i686-linux-gnu/bin
+chmod u+x miranda
+
+# 4. Capsule-LPI
+# =================================================================
+echo "93"
+echo "# Compiling Capsule-LPI" ; sleep2
+cd $bin
 
 
 # =================================================================
